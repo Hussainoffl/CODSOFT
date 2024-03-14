@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:skyblue;
+    
+
+}
+
+
+body{
+    min-height: 100vh;
+    background-position: center;
+    width: 100%;
+   
+    
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    
+}
+.logo{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.navbar a{
+    color: black;
+    font-size: 19px;
+    margin-top: 5px;
+    justify-content: space-around;
+    margin-left: 40px;
+    text-decoration: none;
+    
+
+}
+.home:hover{
+    color:orange;
+}
+.services:hover{
+    color: orange;
+}
+.about:hover{
+    color: orange;
+}
+
+.text{
+    color:black;
+    margin-left: 30%;
+    margin-top: 40px;
+    width: 40%;
+    text-align: center;
+    font-size: 500%;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.text2{
+  width: 18%;
+  position: absolute;
+  top: 120%;
+  left: 0%;
+  margin-left: 95px;
+  font-size: 120%;
+}
+.text3{
+     display: inline-block;
+      text-decoration: none;
+      margin-left: 11%;
+      margin-right: 10%;
+   
+      position: absolute;
+      top: 120%;
+  
+     font-size: 120%;
+     color: black;
+}
+.text3:hover{
+   color: aqua;
+}
+
+.button{
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    
+}
+.button:hover{
+    color: orange;
+}
+.image{
+    display: inline-block;
+    margin-left: 25%;
+    align-items: center;
+}
+.servicespage{
+    margin-top: 14%;
+    margin-bottom: 15%;
+    
+    
+}
+.ourservices{
+    text-align: center;
+    
+}
+.text4{
+    margin-top: 2%;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    
+} 
+
+.button2{
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    margin-top: 3%;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+
+
+.socialads{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 20%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 65px;
+    
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+.socialads:hover{
+    color:orange;
+}
+.saas:hover{
+    color: orange;
+}
+.seo:hover{
+    color: orange;
+}
+.saas{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 115px;
+    padding-bottom: 20px;
+    
+}
+.seo{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 20%;
+    margin-left: 13%;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 115px;
+    padding-bottom: 20px;
+    
+
+}
+.aboutus{
+    display: inline-block;
+}
+.about2{
+    text-align: center;
+    
+    
+}
+.story{
+
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.382);
+    font-weight: 400;
+    margin-top: 4%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+.contenth1{
+    margin-left: 5%;
+    margin-top:20px ;
+    width: 28%;
+}
+.content{
+    display: inline-block;
+    
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 5%;
+    font-weight: 100px;
+}
+.content2{
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 5%;
+    font-weight: 100px;
+}
+.aboutimage{
+    position: absolute;
+    left: 57%;
+    top: 245%;
+    width: 600px;
+    display: inline-block;
+}
+.border{
+    margin-left: 5%;
+    margin-right: 300%;
+    margin-top: 5%;
+    width: 90%;
+    background-color: #000;
+    height: 2px;
+}
+.footer{
+     position: relative;
+    top: 0;
+    margin-bottom: 10%;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    text-decoration: none;
+
+}
+.footertext{
+    display: block;
+}
+.company{
+    margin-top: 5%;
+    width: 8%;
+    text-decoration: none;
+    
+}
+.support{
+    margin-top: 5%;
+    width: 8%;
+    text-decoration: none;
+
+}
+.social{
+    margin-top: 5%;
+    text-decoration: none;
+    width: 8%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
